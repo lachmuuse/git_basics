@@ -1,0 +1,13 @@
+### create repo
+git git config --global user.email ... #configure email (stefan.lackner@protonmail.com)
+git git config --global user.name ... #configure user name (lachmuuse)
+git init #init repo (will add git files(hidden))
+git add * #will add all files/data in folder to repo
+git commit #will create inital commit
+git branch dev #will create the dev branch with the same status as master
+git checkout dev #will change to the dev branch
+
+### connect with origin, push, pull
+git remote add origin https://github.com/lachmuuse/python_basics.git # must exist at github
+git remote set-url origin https://github.com/lachmuuse/python_basics.git
+git remote -v #shows branches on origin
